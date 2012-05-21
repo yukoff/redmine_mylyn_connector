@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Redmine mylyn connector : Mylyn Connector for Redmine 2.0.0 onwards" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Redmine mylyn connector</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/danmunn/redmine_mylyn_connector">View on GitHub</a>
+
+          <h1 id="project_title">Redmine mylyn connector</h1>
+          <h2 id="project_tagline">Mylyn Connector for Redmine 2.0.0 onwards</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/danmunn/redmine_mylyn_connector/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/danmunn/redmine_mylyn_connector/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>redmine_mylyn_connector</h1>
+
+<p>API Connector for mylyn [redmine-myln-connector] as developed originally by Sven Krzyzak (<a href="http://sourceforge.net/projects/redmin-mylyncon">http://sourceforge.net/projects/redmin-mylyncon</a>)</p>
+
+<p>Note for Redmine 1.* users: consider if <a href="http://sourceforge.net/projects/redmin-mylyncon">http://sourceforge.net/projects/redmin-mylyncon</a> will suit your needs</p>
+
+<p>This plugin provides additional API functionality within Redmine, and is part-modification of the original project providing a working base for redmine 2.0 upwards.</p>
+
+<p>Redmine is a flexible project management web application, released under the terms of the GNU General Public License v2 (GPL) at <a href="http://www.redmine.org">http://www.redmine.org</a></p>
+
+<h2>Dependency</h2>
+
+<p>As of 1.8.0 of this plugin, Redmine 2.0.0 or greater is required, Rails 2.3.2 (onwards), with test-cases requiring libxml-ruby Gem.</p>
+
+<h2>Installation</h2>
+
+<p>Before installing ensure that the Redmine instance is stopped.</p>
+
+<ol>
+<li><code>cd [redmine-install-dir]/plugins</code></li>
+<li><code>git clone git://github.com/danmunn/redmine_mylyn_connector.git</code></li>
+<li><code>cd ..</code></li>
+<li><code>rake db:migrate_plugins RAILS_ENV=production</code></li>
+<li><code>bundle install --without development test</code></li>
+</ol><p>After these steps re-start your instance of Redmine and the plugin will be installed.</p>
+
+<h2>Uninstallation</h2>
+
+<p>Before uninstalling please ensure that the Redmine instance is stopped.</p>
+
+<ol>
+<li><code>cd [redmine-install-dir]</code></li>
+<li><code>rm -Rf plugins/redmine_mylyn_connector</code></li>
+</ol><p>After these steps re-start your instance of Redmine.</p>
+
+<h2>Testing</h2>
+
+<p>The plugin comes with a test suite that can be run once the plugin is installed into a Redmine instance.</p>
+
+<p>The process to run the functional tests is as follows</p>
+
+<ol>
+<li><code>cd [redmine-install-dir]/plugins/redmine_mylyn_connector</code></li>
+<li><code>bundle install --without development</code></li>
+<li><code>rake</code></li>
+</ol><p>There are known bugs on the integration test at present which will be rectified at a later point.</p>
+
+<h2>Reporting an Issue</h2>
+
+<p>If you have a problem, please report it on the github project - <a href="http://github.com/danmunn/redmine_mylyn_connector">http://github.com/danmunn/redmine_mylyn_connector</a>.</p>
+
+<p>However if you do have an issue with Redmine, or that is not related to the plugin they either need to go via the support portal at Redmine (<a href="http://www.redmine.org/projects/redmine/issues/new">http://www.redmine.org/projects/redmine/issues/new</a>) or the support portal relevent to the plugin.</p>
+
+<p>Be sure to include Rails version, plugin version, and when possible a stack trace of the error being seen.</p>
+
+<h2>Contributing</h2>
+
+<p>If you've added something, why not share it. Fork the repository (<a href="http://github.com/danmunn/redmine_mylyn_connector">http://github.com/danmunn/redmine_mylyn_connector</a>), make the changes and send a pull request to the maintainers.</p>
+
+<p>Changes with tests, and full documentation are preferred.</p>
+
+<h1>Credits</h1>
+
+<p>This plugin was created by Sven Krzyzak <a href="http://sourceforge.net/users/sven-k">http://sourceforge.net/users/sven-k</a></p>
+
+<p>This plugin is currently maintained by Daniel Munn <a href="https://github.com/danmunn">https://github.com/danmunn</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Redmine mylyn connector maintained by <a href="https://github.com/danmunn">danmunn</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
