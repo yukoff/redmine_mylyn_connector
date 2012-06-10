@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<associateSites>
+	<associateSite label="Mylyn for Eclipse 3.5, 3.6 and 3.7" url="http://download.eclipse.org/mylyn/releases/latest"/>
+	<associateSite label="AJDT for Eclipse 3.6" url="http://download.eclipse.org/tools/ajdt/36/update/"/>
+	<associateSite label="Orbit Tools" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/"/>
+</associateSites>
