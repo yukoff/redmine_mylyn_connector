@@ -3,6 +3,6 @@ class MylynConnector::ApplicationController < ApplicationController
   
   include MylynConnector::Rescue
   
-  before_filter :require_login #Require a successful login to render page
+  before_action :require_login #Require a successful login to render page
 
 end
