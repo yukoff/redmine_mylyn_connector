@@ -54,7 +54,7 @@ else
     match 'mylyn/issues/updatedsince', :controller => 'mylyn_connector/issues', :action => 'updated_since', :format => 'xml', :via => [:get]
     match 'mylyn/issues/list', :controller => 'mylyn_connector/issues', :action => 'list', :format => 'xml', :via => [:get]
     match 'mylyn/issues', :controller => 'mylyn_connector/issues', :action => 'index', :format => 'xml', :via => [:get]
-    match 'mylyn/attachment/:id/:filename', :to => 'attachments#download', :format=> 'xml', :id => /\d+/, :filename => /.*/, :format => 'xml', :via => [:get]
+    match 'mylyn/attachment/:id/:filename', :to => 'attachments#download', :format=> 'xml', :id => /\d+/, :filename => /.*/, :via => [:get]
     match 'mylyn/authtest', :controller => 'mylyn_connector/information', :action => 'authtest', :format=> 'xml', :via => [:get]
   end
 end

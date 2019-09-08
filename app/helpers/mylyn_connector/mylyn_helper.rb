@@ -8,7 +8,7 @@ module MylynConnector::MylynHelper
   end
 
   def integer_list id_based
-    id_based.collect! {|i| i.id }.join(" ")
+    id_based.collect {|i| i.id }.join(" ")
   end
 
   def api_version
