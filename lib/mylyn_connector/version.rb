@@ -1,9 +1,9 @@
 module MylynConnector
   module Version
 
-    MAJOR = 2
-    MINOR = 8
-    TINY  = 2
+    MAJOR = 3
+    MINOR = 0
+    TINY  = 0
 
     # stable/trunk
     BRANCH = 'stable'
@@ -18,7 +18,7 @@ module MylynConnector
     STRING = ARRAY.join('.')
 
     REDMINE = Redmine::VERSION.to_a.slice(0,2).join('.')
-    
+
     def self.to_a; ARRAY end
     def self.to_s; STRING end
     def self.redmine_release; REDMINE end

@@ -1,3 +1,5 @@
+Version 3.0.0
+  Version for Redmine 3.0 and higher because it was said that this version "has better Redmine 3.x.x compatibility"
 Version 2.8.2
   fix	: Backwards compatibility for Redmine 1.3
 
@@ -6,7 +8,7 @@ Version 2.8.1
 
 Version 2.8.0
   Version for Redmine 2.0 and higher
-  
+
 Version 2.7.6
   fix   : missing format for authtest added
   chg   : Tests adapted for Redmine 1.3
