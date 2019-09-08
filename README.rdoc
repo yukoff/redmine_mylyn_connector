@@ -25,9 +25,9 @@ After these steps re-start your instance of Redmine and the plugin will be insta
 
 Make sure you enable the REST web service setting on your Redmine server.
 
-On your Redmine server, navigate to <tt>Administration >> Settings >> Authentication</tt>.
+On your Redmine server, navigate to <tt>Administration >> Settings</tt>.
 
-Check the <tt>Enable REST web service</tt> box if it is not already.
+On tab <tt>Authentication</tt> or <tt>API</tt>, locate the <tt>Enable REST web service</tt> checkbox and check it if it is not already.
 
 == Uninstallation
 
