@@ -72,6 +72,7 @@ This plugin was created by Sven Krzyzak <http://sourceforge.net/users/sven-k>
 This plugin was maintained by Daniel Munn <https://github.com/danmunn>
 
 This plugin is currently maintained by many, namely:
+- Kranke Kirill <https://github.com/krtkr>
 - João Pedro Taveira <https://github.com/joaopedrotaveira>
 - David Santos <https://github.com/Dawuid>
 - yukoff <https://github.com/yukoff>
